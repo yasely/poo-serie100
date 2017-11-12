@@ -18,6 +18,7 @@ public class PruebaAlumno {
         System.out.println("El ciclo del objetoAlumno1 es : " + objetoAlumno1.getCiclo());
         objetoAlumno1.setCiclo(17);
         System.out.println("El Nuevo ciclo del objetoAlumno1 es : " + objetoAlumno1.getCiclo());
+         objetoAlumno1.imprimirInformacion();
 
     }
 

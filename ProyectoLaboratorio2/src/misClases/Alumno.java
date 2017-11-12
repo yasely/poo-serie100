@@ -29,4 +29,20 @@ public class Alumno {
     public void setCiclo(int nuevoCiclo) {
         this.ciclo = nuevoCiclo;
     }
+
+    public String getCodigo() {
+        return this.codigo;
+
+    }
+
+    public void setCodigo(String nuevoCodigo) {
+        this.codigo = nuevoCodigo;
+    }
+
+    public void imprimirInformacion() {
+        System.out.println("========== Informacion del alumno==================");
+        System.out.println("Nombre : " + this.nombres);
+        System.out.println("Apellidos : " + this.apellidos);
+        System.out.println("Codigo : " + this.codigo);
+    }
 }
