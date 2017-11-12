@@ -44,5 +44,6 @@ public class Alumno {
         System.out.println("Nombre : " + this.nombres);
         System.out.println("Apellidos : " + this.apellidos);
         System.out.println("Codigo : " + this.codigo);
+        
     }
 }
